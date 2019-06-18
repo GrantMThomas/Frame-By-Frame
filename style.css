@@ -1,0 +1,215 @@
+.title{
+    color:white !important;
+}
+
+.toolbar{
+    width: 70%;
+}
+
+
+#canvasDiv{
+    
+    border-style: solid;
+    width:700px;
+    height: 393.75px;
+    border-width: 1px;
+
+}
+
+body{
+    background-color: #f7f0f5;
+}
+#canvas{
+    width:700px;
+    height: 393.75px;
+    background-color: white;
+    
+}
+
+
+
+#usernav{
+    display: none;
+}
+
+.lisu{
+    margin:5px;
+    color:white;
+}
+
+#navbar {
+    background-color:#005377 !important;
+    color:white;
+}
+#title{
+    text-align: center;
+    margin: 5px;
+}
+#profiles{
+    display: flex;
+    align-items: center;
+
+}
+.logins{
+    margin:5px;
+}
+
+#search{
+    display:flex;
+    padding: 0px !important;
+    align-items:center;
+    
+}
+
+#anibutton{
+    margin: 0px;
+}
+
+#painttools{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    align-items: center;
+    margin: 10px;
+   width: 100%;
+   margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+}
+
+.icon{
+    height: 30px;
+    margin: 2px;
+}
+
+#painttools input{
+    border-radius: 5px;
+    border-style: solid;
+}
+#painttools button{
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#animate{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#canvasDiv{
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+.background{
+    width: 700px;
+    height: 393.75px;
+    opacity: .5;
+    position: absolute;
+}
+.uandp{
+    background-color:#2b2d42;
+    width: 90%;
+    height: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+    border-radius: 5%;
+    color: white;
+    text-align:center;
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 600px;
+    
+}
+
+.up{
+
+    margin: 5px auto;
+
+}
+
+.lib{
+    background-color: #8d99ae;
+    color: white;
+    width: auto;
+    margin-top: 15px !important;
+    
+}
+
+.frame{
+    width: 75%;
+    height: 100%;
+    border-style:solid;
+    border-width: 1px;
+    border-top-width: .5px;
+    border-bottom-width: .5px;
+}
+
+.np{
+    width: 20px;
+    height: 100%;
+    background-color: black;
+}
+
+#selector{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow:auto;
+    border-style:solid;
+    border-width:1px;
+    background-color:#4d7ea8;
+    
+}
+
+.direction{
+    height: 50px;
+
+}
+.direction:hover{
+    cursor: pointer;
+}
+
+.cntrl{
+    margin: 10px;
+    height: 50px;
+}
+
+.cntrl:hover{
+    cursor: pointer;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+}
+
+.head{
+    margin: 10px;
+}
+
+.go{
+    width: 30%;
+    margin-top: 10px !important;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.plus{
+    width: 20%;
+}
+
+
+.edit{
+    
+    background-color:green !important;
+    background-image: url('images/frame10.tiff') !important; 
+    background-size: 700px 393.75px !important;
+    background-blend-mode: lighten;
+}
